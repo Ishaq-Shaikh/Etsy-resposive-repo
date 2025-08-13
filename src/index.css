@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Mozilla+Headline:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import "tailwindcss";
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#heading {
+    font-family: "Libertinus Serif", serif;
+}
+
+.font-play {
+    font-family: "Playfair Display", serif;
+}
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
+@theme {
+    --font-play: "Playfair Display", serif;
+}
+
+@layer utilities {
+
+    .bg-raisinblack {
+        background-color: #222222;
+    }
+
+    .bg-greenmist {
+        background-color: #D4D1B4;
+    }
+
+    .bg-satinlinen {
+        background-color: #E6E4D4;
+    }
+
+    .bg-beige {
+        background-color: #FFFBD8;
+    }
+
+    .bg-paleblue {
+        background-color: #CCEBFF;
+    }
+
+    .bg-royalblue {
+        background-color: #3B67D9;
+    }
+
+    .bg-navy {
+        background-color: #122868;
+    }
+
+    .bg-flamingo {
+        background-color: #F1641E;
+    }
+
+    .text-flamingo {
+        background-color: #F1641E;
+    }
+
+    .text-raisinblack {
+        color: #222222;
+    }
+
+    .text-richblue {
+        color: #2638C0;
+    }
+
+    .border-brand {
+        border-color: #1D4ED8;
+    }
+
+    .border-raisinblack {
+        background-color: #222222;
+    }
+
+    .font-inter {
+        font-family: "Inter", sans-serif;
+    }
+
+    .font-liber {
+        font-family: "Libertinus Sans", sans-serif;
+    }
+
+    .font-merri {
+        font-family: "Merriweather", serif;
+    }
+}
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
