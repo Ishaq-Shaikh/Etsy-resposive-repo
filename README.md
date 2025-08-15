@@ -5,7 +5,7 @@ Designed to showcase handmade, vintage, and unique products with a clean, user-f
 Built using **React**, **Vite**, and **Tailwind CSS** for high performance, fast loading, and smooth user experience.
 
 [🚀 Live Demo](https://etsy-resposive-repo.vercel.app)  
-[📂 GitHub Repository](https://github.com/Ishaq-Shaikh/Etsy-resposive-repo)
+[👤 GitHub Account](https://github.com/Ishaq-Shaikh)
 
 ---
 
